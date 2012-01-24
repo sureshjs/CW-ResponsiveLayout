@@ -172,7 +172,14 @@ footer {
 
 /* TODO: make styles for iPhone landscape view */
 @media only screen and (max-width: 480px) {
-	
+	#wrapper{
+		width: 380px;
+	}
 }
 
 /* TODO: make styles for iPhone portrait view (320px max width) */
+@media only screen and (max-width: 320px){
+	#wrapper{
+		width: 220px;
+	}
+}
